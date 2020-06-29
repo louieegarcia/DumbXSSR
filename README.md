@@ -1,5 +1,5 @@
 # DumbXSSR (XSS Reflected Scanner)
-*** FOR EDUCATIONAL PURPOSES ONLY ***
+*** FOR EDUCATIONAL PURPOSES ONLY ***  
 or like if you're doing a legal pentest or something. Keyword legal, ok?
 ## Description
 DumbXSSR Reflection Scanner scans a webpage given by a URL that contains variables, and checks if a reflected XSS attack exists. If the attack exists, then DumbXSSR will test several payloads to see if they work.
