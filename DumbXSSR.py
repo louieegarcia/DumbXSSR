@@ -18,8 +18,8 @@ class bcolors:
 def loadPayloads(filename):
     payloads = ['<script>alert(1);</script>','?><script>alert(1);</script>','<body onload="alert(1)">']
 
-    if len(filename) == 0:
-        print("payloads: "+payloads)
+    if filename is None:
+        print("payloads: "+str(payloads))
         return payloads
     else:
         payloads = []
